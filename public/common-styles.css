@@ -5,19 +5,20 @@ body {
   zoom: 95%;
 }
     
-.root {
+.app {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   min-height: calc(100vh - 40px);
 }
 
-.centered {
+.main {
   width: 900px;
 }
 
 .header {
   display: flex;
-  justify-content: flex-start;
+  width: 900px;
   align-items: center;
   padding-top: 10px;
   margin-bottom: 30px; 
@@ -73,6 +74,7 @@ body {
 
 .footer {
   height: 40px;
+  width: 100%;
   margin-top: 40px;
   border-radius: 18px;
   background-color: #ECECEC;
